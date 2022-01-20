@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0",
+    "saslprep": "^1.0.3",
+    "tmi.js": "^1.8.5",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
+}
